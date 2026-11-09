@@ -97,7 +97,7 @@ def common_neighbors_alg(graph):
     return colored_graph
 
 
-new_graph = random_graph.randomg_npk(100, 0.1, 3)
+# new_graph = random_graph.randomg_npk(100, 0.1, 3)
 # graph_common_neighbors(new_graph)
-graph_neighborshist(new_graph)
-common_neighbors_alg(new_graph).drawGraph()
+# graph_neighborshist(new_graph)
+# common_neighbors_alg(new_graph).drawGraph()
