@@ -43,6 +43,9 @@ class Graph:
     def get_vertex_color(self, vertex):
         return self.vertex_colors.get(vertex)
 
+    def is_colored(self):
+        return any(color != None for color in self.vertex_colors.itervalues())
+
     def get_neighbors(self, vertex):
         return self.adjacency_list.get(vertex, [])
 
